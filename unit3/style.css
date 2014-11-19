@@ -1,31 +1,26 @@
-
-head{
-
+html {
+	font-size: 16px;
 }
 
-#striped{
-		width: 100%;
-		background: url("images/stripes.png") repeat;
-}
-body{
-	text-align: left;
-	background: url("images/background.jpg");
-	background-size: cover;
-	color:#52596b;
+body {
+	background: url("images/stripes.png"), url("images/background.jpg");
+	background-size: auto, cover;
+	background-repeat: repeat-x, no-repeat;
+	/*color: #52596b;*/
 	margin-left: 100px;
-	color: white;
-	font-size: 1em;
+	color: #FFFFF;
+	font-size: 1em; /*declare font size in relative unit like px here next time*/
 }
 
-hr{
+hr {
 	width: 5%;
-	color: #BF1534;
-	background: #BF1534;
+	/*color: #BF1534;*/
+	/*background: #BF1534; try out borders and their properties*/
 	margin-left: 100px;
 }
 
-a{
+a {
 	font-size: 2em;
 	font-family: sans-serif;
-	color: white;
+	/*color: white;*/
 }
